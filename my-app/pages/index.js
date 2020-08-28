@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Home({characters}) {
   return (
     <Layout title="Rick and Morty">
-        <h1 className="text-5xl mb-8 text-center">Rick and Morty</h1>
+        <h1 className="transform skew-y-6 tracking-wider text-5xl mb-8 text-center">Rick and Morty</h1>
         <ul>
           {characters.map((character, index) => (
             <li key={index}>
